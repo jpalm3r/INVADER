@@ -12,9 +12,9 @@ import praw
 from prawcore.exceptions import Forbidden
 
 
-my_client_id = '74CBTlXRo31zAg'
-my_client_secret = 'qvpDreHLSY2-QicrieFmc_R-NfM'
-my_user_agent = 'newVisualization'
+my_client_id = ''
+my_client_secret = ''
+my_user_agent = ''
 reddit = praw.Reddit(client_id = my_client_id,
                      client_secret = my_client_secret,
                      user_agent = my_user_agent)
